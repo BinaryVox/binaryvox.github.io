@@ -46,10 +46,9 @@
   
 
 #dropdown-button {
-    border-right: 1px solid #3a3a3a;
-    width: 100px;
+    border: none;
     display: inline-block;
-    height: auto;
+    height: 50px;
     padding: 16px;
     padding-left: 25px;
     padding-right: 25px;
