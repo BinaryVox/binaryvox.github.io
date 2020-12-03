@@ -72,4 +72,5 @@
     font-weight: lighter;
     outline: none;
     width: max-content;
+    display: inline-block;
 }
