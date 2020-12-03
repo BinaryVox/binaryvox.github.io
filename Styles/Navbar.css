@@ -47,6 +47,10 @@
     display: block;
 }
 
+#dropdown-menu:active #dropdown-content {
+    display: block;
+}
+
 #dropdown-menu:hover #dropdown-button {
     background-color: #00000040;
 }
