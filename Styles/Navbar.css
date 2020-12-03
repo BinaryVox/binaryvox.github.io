@@ -27,3 +27,48 @@
 #navbar-item:hover {
     background-color: #00000040;
 }
+
+#dropdown-content {
+    display: none;
+    background-color: #2e2e2e;
+}
+
+#dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+#dropdown-content a {
+    font-family: Helvetica;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+#dropdown-button {
+    border-right: 1px solid #3a3a3a;
+    width: -moz-fit-content;
+    display: inline-block;
+    height: auto;
+    padding: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+    outline: none;
+}
+
+#dropdown-menu:hover #dropdown-content {
+    display: block;
+}
+
+#dropdown-menu:hover #dropdown-button {
+    background-color: #00000040;
+}
+
+#dropdown-content a:hover {
+    background-color: #00000040
+}
