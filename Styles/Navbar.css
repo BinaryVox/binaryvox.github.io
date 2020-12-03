@@ -64,9 +64,10 @@
 
 #dropdown-button {
     display: inline-block;
-    padding: 16px;
+    height: calc(50px - 16px);
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 16px;
     color: white;
     text-decoration: none;
     font-family: Helvetica;
