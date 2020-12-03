@@ -7,7 +7,6 @@
 }
 
 #navbar-item {
-    border-right: 1px solid #3a3a3a;
     width: -moz-fit-content;
     display: inline-block;
     padding: 16px;
@@ -20,7 +19,7 @@
 }
 
 .selected {
-    background-color: #000;
+    background-color: #00000075 !important;
 }
 
 #navbar-item:hover {
@@ -70,4 +69,13 @@
 
 #dropdown-content a:hover {
     background-color: #00000040
+}
+
+#dropdown-button {
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    font-weight: lighter;
+    outline: none;
+    width: max-content;
 }
