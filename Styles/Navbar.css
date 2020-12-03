@@ -21,6 +21,10 @@
     background-color: #00000075 !important;
 }
 
+.item-selected {
+    background-color: #15151575 !important;
+}
+
 #navbar-item:hover {
     background-color: #00000040;
 }
