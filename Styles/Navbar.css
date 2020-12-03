@@ -3,7 +3,6 @@
     height: 50px;
     display: inline-flex;
     padding: 0px;
-    background-color: #1e1e1e;
 }
 
 #navbar-item {
@@ -15,7 +14,12 @@
     text-decoration: none;
     font-family: Helvetica;
     outline: none;
-    background-color: #24242475;
+    background-color: #101010;
+}
+
+#space {
+    width: calc(calc(calc(100% - 82.9px) - 129.733px) - 92.6833px);
+    background-color: #101010;
 }
 
 .selected {
@@ -77,4 +81,6 @@
     text-decoration: none;
     font-family: Helvetica;
     outline: none;
+    background-color: #24242475;
+    text-align: center;
 }
