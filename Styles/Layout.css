@@ -1,13 +1,14 @@
 #header {
     width: 100%;
     height: max-content;
+    background-color: black;
 }
 
 #wave {
     fill: black;
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: 200px;
     left: 0;
     z-index: -1;
 }
