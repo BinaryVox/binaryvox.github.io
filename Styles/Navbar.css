@@ -33,6 +33,9 @@
 #dropdown-menu {
     position: relative;
     display: inline-block;
+    padding: none;
+    margin: none;
+    height: 50px;
 }
 
 #dropdown-content a {
