@@ -35,11 +35,15 @@
     margin-left: calc(35vw - 120px);
     padding: 20px;
     border: 0.5px solid black;
-    margin-top: 20px;
     margin-bottom: 20px;
     font-family: helvetica;
     background-color: #000;
     color: white;
+}
+
+#posts {
+    padding: 20px;
+    background: linear-gradient(0deg, #00000c 0%, #f2f2f2 100%);
 }
 
 #date {
