@@ -23,3 +23,13 @@ body {
     padding-bottom: 25px;
     font-size: medium;
 }
+
+#section-heading {
+    margin: 0px;
+    color: white;
+    text-align: left;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: medium;
+    text-align: center;
+}

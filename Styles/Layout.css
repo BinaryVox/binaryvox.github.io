@@ -3,16 +3,21 @@
     height: calc(15vh + 125px);
     position: fixed;
     top: 0;
-    background-color: black;
+    background-color: #0f0f0f;
     z-index: -1;
 }
 
 #wave {
-    fill: black;
+    fill: #0f0f0f;
     display: inline-block;
     position: absolute;
     top: calc(15vh + 125px);
     left: 0;
     z-index: -1;
+}
+
+#about {
+    margin-top: calc(15vh + 175px);
+    padding-top: 100px;
 }
 
