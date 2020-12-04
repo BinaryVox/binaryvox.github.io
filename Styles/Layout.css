@@ -1,7 +1,10 @@
 #header {
     width: 100%;
-    height: max-content;
+    height: calc(15vh + 125px);
+    position: fixed;
+    top: 0;
     background-color: black;
+    z-index: -1;
 }
 
 #wave {
