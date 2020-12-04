@@ -2,7 +2,7 @@
     width: 100%;
     height: calc(15vh + 125px);
     top: 0;
-    z-index: 2;
+    z-index: 0;
     background-color: #0f0f0f;
     position: absolute;
 }
@@ -16,9 +16,8 @@
     pointer-events: none
 }
 
-#about {
-    margin-top: calc(15vh + 125px);
-    padding-top: 100px;
+#about {margin-top: calc(30vh - 100px);
+    padding-top: 200px;
     background-color: #f2f2f2;
 }
 
