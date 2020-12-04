@@ -29,6 +29,17 @@
     font-weight: normal;
 }
 
+#post-image {
+width: calc(30vw + 200px);
+}
+
+#post-image-caption {
+    margin-top: 0px;
+    font-size: 0.9em;
+    text-align: center;
+}
+  
+
 #post {
     position: relative;
     width: calc(30vw + 200px);
