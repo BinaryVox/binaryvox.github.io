@@ -1,3 +1,4 @@
+/* Header */
 #header {
     width: 100%;
     height: calc(15vh + 125px);
@@ -16,13 +17,14 @@
     pointer-events: none
 }
 
+/* Page Description */
 #primary-section {
     margin-top: calc(30vh - 100px);
     padding-top: 200px;
     background-color: #f2f2f2;
 }
 
-
+/* Blog Posts */
 #post-title {
     position: absolute;
     top: 0px;
@@ -30,7 +32,7 @@
 }
 
 #post-image {
-width: calc(30vw + 200px);
+    width: calc(30vw + 200px);
 }
 
 #post-image-caption {
@@ -69,6 +71,55 @@ width: calc(30vw + 200px);
     top: 36px;
 }
 
+/* Compare Section */
+#compare-section {
+    height: 200px;
+}
+
+#compare-section-right #section-content {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+#compare-section-left #section-content {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+#compare-section-right {
+    width: 50vw;
+    height: inherit;
+    position: absolute;
+    right: 0px;
+    padding-top: 20px;
+    background-color: #313131;
+    color: white;
+}
+
+#compare-section-left {
+    width: 50vw;
+    height: inherit;
+    position: absolute;
+    left: 0px;
+    background-color: #444444;
+    padding-top: 20px;
+}
+
+#compare-section-right #section-heading {
+    color: white;
+}
+
+#compare-section-left #section-heading {
+    color: white;
+}
+
+/* Jump To Top Button */
 #jump {
     position: fixed;
     right: 10px;
