@@ -17,6 +17,30 @@
     pointer-events: none
 }
 
+/* Section */
+#section {
+    height: 300px;
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+#section-item {
+    background-color: #0e0c16;
+    width: 30%;
+    margin-left: 2.5%;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+#section-item #title {
+    padding-top: 14vh;
+    font-size: 3vw;
+}
+
+#section-item #subtitle {
+    font-size: 2vw;
+}
+
 /* Page Description */
 #primary-section {
     margin-top: calc(30vh - 100px);
@@ -27,8 +51,10 @@
 /* Blog Posts */
 #post-title {
     position: absolute;
-    top: 0px;
-    font-weight: normal;
+    top: 10px;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2em;
 }
 
 #post-image {
@@ -45,24 +71,26 @@
 #post {
     position: relative;
     width: calc(30vw + 200px);
-    margin-left: calc(35vw - 120px);
+    margin-left: calc(35vw - 140px);
     padding: 20px;
-    border: 0.5px solid black;
+    border: 1px solid #ff8a00;
     margin-bottom: 20px;
     font-family: helvetica;
-    background-color: #000;
+    background-color: #17141d;
     color: white;
+    border-radius: 10px;
 }
 
 #posts {
     padding: 20px;
-    background: linear-gradient(0deg, #00000c 0%, #f2f2f2 100%);
+    background: linear-gradient(0deg, #00000c 0%, #100e17 100%);
+    border-radius: 50px 50px 0px 0px;
 }
 
 #date {
-    position: absolute;
-    top: 0px;
-    right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #515151;
 }
 
 #post-content {
