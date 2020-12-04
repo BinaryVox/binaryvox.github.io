@@ -1,19 +1,10 @@
 body {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
     margin: 0px;
     padding: 0px;
     font-weight: lighter;
     background-color: #fff;
     -moz-user-select: none;
     -webkit-user-select: none;
-}
-
-html {
-    width: 100%;
-    height: 100%;
-    overflow: scroll;
 }
 
 #title {
