@@ -56,3 +56,12 @@ body {
     text-decoration: none;
     color: blue;
 }
+
+#post-content a {
+    text-decoration: none;
+    color: blue;
+}
+
+hr {
+    margin-top: 15px;
+}
