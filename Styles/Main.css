@@ -1,7 +1,9 @@
 body {
     margin: 0px;
     font-weight: lighter;
-    background-color: #2e2e2e;
+    background-color: #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 #title {
@@ -16,7 +18,7 @@ body {
 
 #subtitle {
     margin: 0px;
-    color: white;
+    color: #b9b9b9;
     text-align: center;
     font-family: helvetica;
     font-weight: lighter;
@@ -26,10 +28,26 @@ body {
 
 #section-heading {
     margin: 0px;
-    color: white;
+    color: black;
     text-align: left;
     font-family: helvetica;
     font-weight: lighter;
     font-size: 24px;
     text-align: center;
+}
+
+#section-content {
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    text-align: left;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+}
+
+#section-content a {
+    text-decoration: none;
+    color: blue;
 }

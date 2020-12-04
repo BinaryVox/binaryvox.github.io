@@ -13,11 +13,12 @@
     position: absolute;
     top: calc(15vh + 125px);
     left: 0;
+    pointer-events: none
 }
 
 #about {
     margin-top: calc(15vh + 125px);
     padding-top: 100px;
-    background-color: #000;
+    background-color: #f2f2f2;
 }
 
