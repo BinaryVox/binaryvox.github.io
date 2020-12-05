@@ -206,6 +206,7 @@
 
 #slideshow {
     position: relative;
+    height: 0px;
 }
 
 #slideshow-next {
