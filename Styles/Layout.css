@@ -211,7 +211,7 @@
 
 #slideshow-next {
     position: absolute;
-    margin-top: 25%;
+    margin-top: 22%;
     right: 5vw;
     color: white;
     background-color: #00000042;
@@ -221,7 +221,7 @@
 
 #slideshow-back {
     position: absolute;
-    margin-top: 25%;
+    margin-top: 22%;
     left: 5vw;
     color: white;
     background-color: #00000042;
