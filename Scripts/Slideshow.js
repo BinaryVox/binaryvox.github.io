@@ -13,7 +13,7 @@ function rotatePictures(direction) {
     for (image of document.getElementsByClassName("slideshow-image")) { 
         images.push(image.src)
     }
-    if (direction == "back") {
+    if (direction == "next") {
         images.push(images.shift());
     } else {
         images.unshift(images.pop());
