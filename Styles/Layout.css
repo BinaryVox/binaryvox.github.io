@@ -12,7 +12,7 @@
     fill: #0f0f0f;
     display: inline-block;
     position: absolute;
-    top: calc(15vh + 125px);
+    top: calc(15vh + 124px);
     left: 0;
     pointer-events: none
 }
