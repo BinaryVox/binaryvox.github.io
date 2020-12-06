@@ -185,7 +185,9 @@
     right: 10px;
     bottom: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: #00000087;
+    border-radius: 3px;
     font-family: helvetica;
     padding: 5px;
     font-size: 12px;
