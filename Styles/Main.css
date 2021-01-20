@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    font-family: 'Domine', system-ui, sans-serif;
+    font-family: 'helvetica', sans-serif, system-ui;
+    font-weight: lighter;
     position: relative;
     color: #fff;
     text-align: center;
@@ -13,6 +14,7 @@ body {
 
 h1 {
     font-family: "Montserrat",sans-serif;
+    font-weight: lighter;
     margin: 0px 30px 5px 30px;
     font-size: 5rem;
     padding-top: 65px;

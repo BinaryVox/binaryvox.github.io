@@ -15,4 +15,9 @@
 .wave-container > h1 {
     margin: 7rem 1.25rem 2.5rem 1.25rem;
     padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wave-container > p {
+    padding-top: 0px;
 }
