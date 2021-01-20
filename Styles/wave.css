@@ -1,0 +1,18 @@
+.wave-container {
+    position: relative;
+    background: #09F;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+.wave-container > svg {
+    display: block;
+    background: #09F;
+    margin-bottom: -1px;
+}
+
+.wave-container > h1 {
+    margin: 7rem 1.25rem 2.5rem 1.25rem;
+    padding-top: 0px;
+}
