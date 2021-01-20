@@ -1,49 +1,52 @@
-scroll = 0
-window.onload = () => {
-    for (item of document.getElementsByClassName("pulse")) {
-        if (checkVisible(item)) {
-            item.style.animation = "pulse 1s 1"
-            setTimeout(() => {
-                item.style = "padding-top: 20vh !important;"
-            }, 1001)
-        } else {
-            item.style.animation = "none"
-        }
-    }
-}
+home = document.getElementById("home")
+homeShown = true
+about = document.getElementById("about")
+aboutShown = true
+projects = document.getElementById("projects")
+projectsShown = true
+articles = document.getElementById("articles")
+articlesShown = true
 
 window.onscroll = function() {
-    for (item of document.getElementsByClassName("down")) {
-        if (checkVisible(item)) {
-            item.style.animation = "down 1s 1"
-        } else {
-            item.style.animation = "none"
+    if (checkVisible(home)) {
+        if (homeShown == false) {
+            homeShown = true
+            home.style.animation = "fadeToSolid 1s"
         }
+    } else {
+        homeShown = false
+        home.style.animation = "none"
     }
-
-    for (rightItem of document.getElementsByClassName("slide-right")) {
-        if (checkVisible(rightItem)) {
-            rightItem.style.animation = "slide-right 2s 1"
-            setTimeout(() => {
-                rightItem.style = "margin-left: 0% !important;"
-            }, 2001)
-        } else {
-            rightItem.style.animation = "none"
+    if (checkVisible(about)) {
+        if (aboutShown == false) {
+            aboutShown = true
+            about.style.animation = "fadeToSolid 1s"
         }
+    } else {
+        aboutShown = false
+        about.style.animation = "none"
     }
-
-    for (leftItem of document.getElementsByClassName("slide-left")) {
-        if (checkVisible(leftItem)) {
-            leftItem.style.animation = "slide-left 2s 1"
-            setTimeout(() => {
-                leftItem.style = "margin-left: 0% !important;"
-            }, 2001)
-        } else {
-            leftItem.style.animation = "none"
+    if (checkVisible(projects)) {
+        if (projectsShown == false) {
+            projectsShown = true
+            projects.style.animation = "fadeToSolid 1s"
         }
+    } else {
+        projectsShown = false
+        projects.style.animation = "none"
+    }
+    if (checkVisible(articles)) {
+        if (articlesShown == false) {
+            articlesShown = true
+            articles.style.animation = "fadeToSolid 1s"
+        }
+    } else {
+        articlesShown = false
+        articles.style.animation = "none"
     }
 };
-  
+
+
 function checkVisible(element) {
     var rect = element.getBoundingClientRect()
     var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight)
