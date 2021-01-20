@@ -10,6 +10,8 @@
     display: block;
     background: #09F;
     margin-bottom: -1px;
+    animation: 10s ease 0s infinite normal none running leftright;
+    width: calc(100% + 200px);
 }
 
 .wave-container > h1 {
@@ -19,5 +21,22 @@
 }
 
 .wave-container > p {
+    margin-bottom: 0rem;
     padding-top: 0px;
+}
+
+#about {
+    padding-top: 0px;
+}
+
+@keyframes leftright {
+    0% {
+        margin-left: -200px;
+    }
+    50% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: -200px;
+    }
 }
