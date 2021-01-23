@@ -3,21 +3,42 @@ html {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      height: 100vw;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
-
     #navbar {
-        overflow-x: scroll;
+        text-align: left !important;
+        display: block !important;
+        position: static !important;
     }
-  }
+    #card {
+        width: 300px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    h1 {
+        font-size: 3rem !important;
+    }
+    #left {
+        width: 100% !important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    a {
+        font-size: 100% !important;
+    }
+    #navbar-item {
+        width: 20vw !important;
+    }
+    #card {
+        width: 300px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    h1 {
+        font-size: 3rem !important;
+    }
+    #left {
+        width: 100% !important;
+    }
+}
 
 body {
     font-family: 'helvetica', sans-serif, system-ui;

@@ -8,7 +8,9 @@
     display: inline-block;
     border: 1px solid orange;
     width: 375px;
-    margin: 0px 20px 40px 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-radius: 10px;
 }
 
