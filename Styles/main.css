@@ -2,6 +2,48 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'helvetica', sans-serif, system-ui;
+    font-weight: lighter;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+}
+
+/* General */
+#home {
+    color: #ffffff !important;
+}
+
+h1 {
+    color: #ff5c7b;
+    font-family: "Montserrat",sans-serif;
+    font-weight: lighter;
+    margin: 0px 30px 5px 30px;
+    font-size: 5rem;
+    padding-top: 65px;
+}
+
+p {
+    color: #000000;
+    padding: 10px;
+    font-size: 1.75rem;
+    margin: 0 1.25rem 5rem 1.25rem;
+}
+
+a {
+    color: #ffffff;
+    font-size: 1.75rem;
+    margin: 0 1.25rem 5rem 1.25rem;
+}
+
+#left {
+    width: 50%;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+/* Mobile Devices */
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
     #navbar {
         text-align: left !important;
@@ -40,43 +82,23 @@ html {
     }
 }
 
-body {
-    font-family: 'helvetica', sans-serif, system-ui;
-    font-weight: lighter;
-    position: relative;
-    color: #fff;
-    text-align: center;
-    color: #ff5c7b;
-    margin: 0px;
+/* Color Scheme */
+@media (prefers-color-scheme: dark) {
+    h1 {
+        color: #6a169e !important;
+    }
+    html {
+        background-color: #000000 !important;
+    }
+    p {
+        color: #ffffff !important;
+    }
+    .wave-container > svg {
+        fill: #000000 !important;
+    }
 }
 
-h1 {
-    font-family: "Montserrat",sans-serif;
-    font-weight: lighter;
-    margin: 0px 30px 5px 30px;
-    font-size: 5rem;
-    padding-top: 65px;
-}
-
-p {
-    color: #000000;
-    padding: 10px;
-    font-size: 1.75rem;
-    margin: 0 1.25rem 5rem 1.25rem;
-}
-
-a {
-    color: #ffffff;
-    font-size: 1.75rem;
-    margin: 0 1.25rem 5rem 1.25rem;
-}
-
-#left {
-    width: 50%;
-    text-align: left;
-    margin-bottom: 100px;
-}
-
+/* Animations */
 @keyframes fadeToSolid {
     0% {
         opacity: 0;

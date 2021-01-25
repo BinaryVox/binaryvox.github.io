@@ -9,6 +9,7 @@
 .wave-container > svg {
     display: block;
     background: #09F;
+    fill: #ffffff;
     margin-bottom: -1px;
     animation: 10s ease 0s infinite normal none running leftright;
     width: calc(100% + 200px);
